@@ -42,8 +42,8 @@ public class CalcArr {
                System.out.println("Не знаем такого");
                break;
        }
-       double hex = Math.pow(10, 4);
-       System.out.println("Рeзультат операции" + " " + ((long) (c * hex)) / hex);
+
+       System.out.printf("Рeзультат операции =  %.4f",c );
    }
     else if (ask == 0) {
 
