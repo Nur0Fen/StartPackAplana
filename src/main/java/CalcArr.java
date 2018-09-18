@@ -16,11 +16,11 @@ public class CalcArr {
        System.out.println("Введите первое число");
        a = sc.nextDouble();
 
-       System.out.println("Введите второе число");
-       b = sc.nextDouble();
-
        System.out.println("Выберите операцию, введя соответствующую цифру:\n1-сложение, 2-вычитание, 3-умножение, 4-деление");
        int k = sc.nextInt();
+
+       System.out.println("Введите второе число");
+       b = sc.nextDouble();
 
        switch (k) {
            case 1:
