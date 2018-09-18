@@ -37,6 +37,9 @@ public class Calc {
 
 
     public double divide() {
+        if (b == 0)
+            System.out.println("Деление на ноль невозможно!");
+        else
         result=a / b;
         System.out.println(result);
         return result;
