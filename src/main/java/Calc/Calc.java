@@ -5,8 +5,8 @@ import java.util.InputMismatchException;
 
 public class Calc {
 
-    double a;
-    double b;
+    double a = 4;
+    double b = 2;
     double result;
     int oper;
 
