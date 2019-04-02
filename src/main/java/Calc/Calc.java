@@ -5,8 +5,8 @@ import java.util.InputMismatchException;
 
 public class Calc {
 
-    double a = 4;
-    double b = 2;
+    double a;
+    double b;
     double result;
     int oper;
 
@@ -43,21 +43,21 @@ public class Calc {
         input.close();
     }
 
-    public double sum() {
+    public double sum(double a,double b) {
         result=a + b;
         System.out.println(result);
         return result;
     }
 
 
-    public double minus() {
+    public double minus(double a,double b) {
         result=a - b;
         System.out.println(result);
         return result;
     }
 
 
-    public double divide() {
+    public double divide(double a,double b) {
         if (b == 0)
             System.out.println("Деление на ноль невозможно!");
         else
@@ -67,7 +67,7 @@ public class Calc {
     }
 
 
-    public double multiply() {
+    public double multiply(double a,double b) {
         result=a * b;
         System.out.println(result);
         return result;

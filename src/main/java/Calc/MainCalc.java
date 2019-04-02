@@ -3,25 +3,25 @@ package Calc;
 public class MainCalc {
 
 
-    public static void main(String[] args) {
+    public static void main(double operand1, double operand2) {
 
         Calc Calculate = new Calc();
         Calculate.getInput();
         switch (Calculate.oper) {
             case 1: {
-                Calculate.sum();
+                Calculate.sum(operand1,operand2);
                 break;
             }
             case 2: {
-                Calculate.minus();
+                Calculate.minus(operand1,operand2);
                 break;
             }
             case 3: {
-                Calculate.multiply();
+                Calculate.multiply(operand1,operand2);
                 break;
             }
             case 4: {
-                Calculate.divide();
+                Calculate.divide(operand1,operand2);
                 break;
             }
             default:
